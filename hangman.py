@@ -16,10 +16,10 @@ def main():
             lives -= 1
         
         if lives <= 0:
-            print(f"No lives left. Word was {word}.")
+            print(f"No lives left.\nWord was {word}.")
             return
         elif "_" not in progress:
-            print(f"You guessed it! The word was {word}")
+            print(f"You guessed it!\nThe word was {word}")
             return
 
 

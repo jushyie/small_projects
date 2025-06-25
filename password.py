@@ -20,7 +20,8 @@ def crack_pw(n, pw):
         elif guess == pw:
             return guess
 
-pw = create_pw(3)
-crack = crack_pw(3, pw)
-print(pw, crack)
+length = 3
+pw = create_pw(length)
+crack = crack_pw(length, pw)
+
     
