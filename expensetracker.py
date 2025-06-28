@@ -42,9 +42,9 @@ class Expenses:
 
 expenses = Expenses(500)
 expenses.add_expense("transportation", 20, "Prague to Bratislava")
-expenses.add_expense("transportation", 20, "Bratislava to Budapest")
-expenses.add_expense("transportation", 7, "Budapest to Vienna")
-expenses.add_expense("transportation", 30, "Vienna to Munich")
+expenses.add_expense("transportation", 15, "Bratislava to Budapest")
+expenses.add_expense("transportation", 15, "Budapest to Vienna")
+expenses.add_expense("transportation", 27, "Vienna to Munich")
 expenses.add_expense("food", 10 * 8, "eating")
 expenses.add_expense("accomodation", 20 * 7, "hostels")
 expenses.list_total()
