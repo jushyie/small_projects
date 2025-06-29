@@ -20,4 +20,4 @@ def exchange(*target):
     else:
         print(response.status_code)
 
-exchange("USD", "JPY", "AUD", "CZK", "PLN")
+exchange("USD", "JPY", "AUD")
