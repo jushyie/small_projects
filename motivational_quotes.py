@@ -2,6 +2,7 @@ import random
 import time
 import os
 import requests
+from datetime import datetime
 
 url = "https://zenquotes.io/api/quotes/"
 
@@ -25,5 +26,7 @@ def display_regularly(interval = 60): # hourly
     while True:
         quote = get_random_quote()
         display_quote(quote)
+        next = datetime.now()
+        print(f"next notification at {next.hour + 1}:{next.minute}")
         time.sleep(interval * 60)
 display_regularly()
