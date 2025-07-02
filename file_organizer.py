@@ -27,7 +27,4 @@ def organize_folder(folder):
                 shutil.move(file_path, os.path.join(folder_path, file))
                 print(f"Moved {file} to {f}.")
 
-                
-
 organize_folder(folder)
-    
